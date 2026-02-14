@@ -1,0 +1,58 @@
+import type { Subject } from '@/types';
+
+export const subjects: Subject[] = [
+  {
+    id: 'algorithme',
+    name: 'Algorithmique 2',
+    nameAr: 'الخوارزميات 2',
+    description: 'Advanced algorithms, sorting techniques, recursion, and complexity analysis',
+    icon: 'Code2',
+    color: '#00F0FF',
+    playlistCount: 4,
+  },
+  {
+    id: 'structure-donnees',
+    name: 'Structure de Données',
+    nameAr: 'هياكل البيانات',
+    description: 'Arrays, linked lists, stacks, queues, trees, and graphs',
+    icon: 'Database',
+    color: '#7000FF',
+    playlistCount: 3,
+  },
+  {
+    id: 'architecture',
+    name: 'Architecture des Ordinateurs',
+    nameAr: 'بنية الحواسيب',
+    description: 'Computer organization, CPU, memory, and digital logic',
+    icon: 'Cpu',
+    color: '#00FF9D',
+    playlistCount: 3,
+  },
+  {
+    id: 'analyse',
+    name: 'Analyse 2',
+    nameAr: 'التحليل 2',
+    description: 'Integral calculus, differential equations, and series',
+    icon: 'FunctionSquare',
+    color: '#FFD700',
+    playlistCount: 3,
+  },
+  {
+    id: 'algebre',
+    name: 'Algèbre 2',
+    nameAr: 'الجبر 2',
+    description: 'Vector spaces, linear transformations, matrices, and determinants',
+    icon: 'Grid3X3',
+    color: '#FF6B6B',
+    playlistCount: 3,
+  },
+  {
+    id: 'electronique',
+    name: 'Électronique',
+    nameAr: 'الإلكترونيات',
+    description: 'Basic electronics, circuits, and digital systems',
+    icon: 'Zap',
+    color: '#FF00FF',
+    playlistCount: 2,
+  },
+];
